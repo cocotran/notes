@@ -19,6 +19,13 @@ sudo lsof -i :[portNumber]    # returns the user processes that are active on a 
 sudo kill -9 PID              # kill the process
 ```
 
+## JavaScript  
+To update node.js
+```bash
+npm cache clean -f    # clear the npm cache
+npm install -g n      # install Node’s version manager
+sudo n stable         # or sudo n lastest or sudo n [version.number]
+```
 
 
 ## Python
