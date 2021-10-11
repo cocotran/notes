@@ -69,4 +69,6 @@ sudo docker build -t [image-tag] [dir]   # build image and set name to image-tag
 ```bash
 docker run -d -p [host-port]:[container-port] [image]
 ```
-
+```bash
+sudo stop {container]   # stop a container
+```
