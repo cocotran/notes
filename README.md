@@ -58,9 +58,15 @@ cython -a file.pyx              # generate HTML file
 
 ## Docker
 ```bash
+sudo docker images   # list all images
+```
+```bash
+sudo docker ps   # list all containers
+```
+```bash
 sudo docker build -t [image-tag] [dir]   # build image and set name to image-tag
 ```
 ```bash
-docker run -d -p [host-port]:[container-port] 
+docker run -d -p [host-port]:[container-port] [image]
 ```
 
