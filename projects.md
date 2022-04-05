@@ -1,7 +1,6 @@
-### Angular
+## Angular
 
-#### Characters limit and patterns
-##### pattern, text, input
+#### Characters limit and patterns (pattern, text, input)
 ```html
 <mat-form-field
   color="primary"
@@ -35,10 +34,9 @@
 
 ---
 
-### HTML
+## HTML
 
-#### Set fixed width for table column
-##### table, cell
+#### Set fixed width for table column (table, cell)
 ```html
 <table class="text-center" style="table-layout: fixed; width: 100%">
   <col style="width: 200px" />
@@ -48,10 +46,9 @@
 
 ---
 
-### CSS
+## CSS
 
-#### Add ellipsis to text
-##### text, input
+#### Add ellipsis to text (text, input)
 ```
 .ellipsis {
   overflow: hidden;
