@@ -34,17 +34,6 @@
 
 ---
 
-## HTML
-
-#### Set fixed width for table column (table, cell)
-```html
-<table class="text-center" style="table-layout: fixed; width: 100%">
-  <col style="width: 200px" />
-  <col style="width: 50%" />
-</table>
-```
-
----
 
 ## CSS
 
@@ -57,5 +46,14 @@
 }
 ```
 
+---
 
+## HTML
 
+#### Set fixed width for table column (table, cell)
+```html
+<table class="text-center" style="table-layout: fixed; width: 100%">
+  <col style="width: 200px" />
+  <col style="width: 50%" />
+</table>
+```
