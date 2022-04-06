@@ -48,6 +48,17 @@
 
 ---
 
+## Git
+
+#### Git squash
+```bash
+git reset --soft <commit>
+git commit -m "new commit"
+git push -f
+````
+
+---
+
 ## HTML
 
 #### Set fixed width for table column (table, cell)
