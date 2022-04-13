@@ -68,3 +68,8 @@ git push -f
   <col style="width: 50%" />
 </table>
 ```
+
+#### Set fixed width for span
+```html
+<span style="display: inline-block; width: 500px"></span>
+```
