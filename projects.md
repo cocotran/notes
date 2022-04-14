@@ -32,6 +32,16 @@
 </mat-form-field>
 ```
 
+#### Add ellipsis to Angular mat-checkbox (css, checkbox)
+```
+::ng-deep .mat-checkbox-layout .mat-checkbox-label {
+  max-width: 500px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+```
+
 ---
 
 
