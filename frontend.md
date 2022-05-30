@@ -42,6 +42,7 @@
 }
 ```
 
+
 ---
 
 
@@ -56,18 +57,9 @@
 }
 ```
 
----
-
-## Git
-
-#### Git squash
-```bash
-git reset --soft <commit>
-git commit -m "new commit"
-git push -f
-````
 
 ---
+
 
 ## HTML
 

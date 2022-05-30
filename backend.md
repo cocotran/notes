@@ -24,21 +24,14 @@ python3 setup.py build_ext --inplace  # build cython python
 cython -a file.pyx              # generate HTML file
 ```
 
+---
 
 
-## Docker
+## Node.js
+
+#### Update Node.js
 ```bash
-sudo docker images   # list all images
-```
-```bash
-sudo docker ps   # list all containers
-```
-```bash
-sudo docker build -t [image-tag] [dir]   # build image and set name to image-tag
-```
-```bash
-docker run -d -p [host-port]:[container-port] [image]
-```
-```bash
-sudo stop {container]   # stop a container
+npm cache clean -f	# clear the npm cache
+npm install -g n    # install Node’s version manager
+sudo n stable       # or sudo n lastest or sudo n [version.number]
 ```
